@@ -1,0 +1,64 @@
+:root {
+    --backgrroundColor: lightgray;
+    --graphWidth: 500px;
+     --bar: 10px;
+
+}
+
+.mainContainer {
+    text-align: center;
+    display: flex;
+}
+
+.graphContainer {
+    background-color: var(--backgrroundColor);
+    width: var(--graphWidth);
+    height: var(--graphWidth);
+    margin-bottom: 2px;
+}
+
+.barDiv {
+    display: flex;
+}
+
+.label {
+    margin: 6px;
+    width: 16%;
+}
+
+.bar {
+    height: var(--bar);
+}
+
+.bar1 {
+    /* width: calc(100% - 40px); */
+    border-top-left-radius: 5px;
+    border-bottom-left-radius: 5px;
+    background-color: blueviolet;
+    margin: 10px 0 10px 10px;
+    transition-duration: 1000ms;
+    z-index: 1;
+}
+
+.bar2 { 
+    /* width: 40px; */
+    background-color: lightseagreen;
+    border-top-right-radius: 5px;
+    border-bottom-right-radius: 5px;
+    margin: 10px 10px 10px 0px;
+    transition-duration: 1000ms;
+}
+
+.inputButton {
+    width: 7em;
+    height: 3em;
+    margin-top: 2em;
+    position: relative;
+    z-index: 1;
+    background: cadetblue;
+    outline: none;
+    border-radius: 10px;
+    border: none;
+}
+
+
